@@ -35,7 +35,7 @@
           <div class="flex space-x-7">
             <div>
               <!-- Website Logo -->
-              <a href="#" class="flex items-center py-4 px-2">
+              <a href="index.html" class="flex items-center py-4 px-2">
                 <img
                   src="assets/img/logo.svg"
                   alt="Logo"
@@ -139,37 +139,6 @@
         });
       </script>
     </nav>
-    <!--Banner-->
-    <div class="pt-24 md:pl-10 md:ml-36 text-center">
-      <div
-        class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center"
-      >
-        <!--Left Col-->
-        <div
-          class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left"
-        >
-          <p class="tracking-loose w-full">No basta con pasteles..</p>
-          <h1 class="my-4 text-5xl font-bold leading-tight">
-            Mejor, <span class="text-red-600">SuperPasteles</span>
-          </h1>
-          <p class="leading-normal text-2xl mb-8">
-            Los mejores sabores, variedad invencible y un super precio
-          </p>
-          <button
-            class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-          >
-            Ordenar
-          </button>
-        </div>
-        <!--         
-
-        <!--Right Col-->
-        <div class="w-full md:w-2/5 py-0 md:ml-12 text-center">
-          <img class="w-full md:w-5/5 z-50" src="assets/img/logo.svg" />
-        </div>
-      </div>
-    </div>
-    <!-- End Banner -->
 
     <div class="relative -mt-12 lg:-mt-24">
       <svg
@@ -215,57 +184,454 @@
         <h1
           class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
         >
-          Sabores y adornos fuera de este mundo
+          Tu Stock
         </h1>
-        <div class="w-full mb-4" id="sabores">
-          <div
-            class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
-          ></div>
+
+        <!-- Stock Sabores -->
+        <div class="flex flex-col">
+          <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
+            <div class="inline-block py-2 min-w-full sm:px-6 lg:px-8">
+              <div class="overflow-hidden shadow-md sm:rounded-lg">
+                <table class="min-w-full">
+                  <thead class="bg-gray-50">
+                    <tr>
+                      <th
+                        scope="col"
+                        class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase"
+                      >
+                        Sabor
+                      </th>
+
+                      <th
+                        scope="col"
+                        class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase"
+                      >
+                        Stock
+                      </th>
+                      <th
+                        scope="col"
+                        class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase"
+                      >
+                        Precio
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="bg-white border-b">
+                      <td
+                        class="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap"
+                      >
+                        Wonderful Piña
+                      </td>
+
+                      <td
+                        class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap"
+                      >
+                        20
+                      </td>
+                      <td
+                        class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap"
+                      >
+                        $300
+                      </td>
+                    </tr>
+
+                    <tr class="bg-white border-b">
+                      <td
+                        class="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap"
+                      >
+                        The Coco
+                      </td>
+                      <td
+                        class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap"
+                      >
+                        50
+                      </td>
+                      <td
+                        class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap"
+                      >
+                        $400
+                      </td>
+                    </tr>
+
+                    <tr class="bg-white border-b">
+                      <td
+                        class="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap"
+                      >
+                        Avenger Mango
+                      </td>
+
+                      <td
+                        class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap"
+                      >
+                        12
+                      </td>
+                      <td
+                        class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap"
+                      >
+                        $300
+                      </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                      <td
+                        class="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap"
+                      >
+                        The Golden Apple
+                      </td>
+
+                      <td
+                        class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap"
+                      >
+                        3
+                      </td>
+                      <td
+                        class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap"
+                      >
+                        $320
+                      </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                      <td
+                        class="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap"
+                      >
+                        Justice Vainilla
+                      </td>
+
+                      <td
+                        class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap"
+                      >
+                        120
+                      </td>
+                      <td
+                        class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap"
+                      >
+                        $250
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="flex flex-wrap">
-          <div class="w-5/6 sm:w-1/2 p-6 md:mt-24">
-            <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-              Sabores Invencibles
-            </h3>
-            <p class="text-gray-600 mb-8">
-              Desde vainilla justicia hasta mango vengador... Nuestros sabores
-              derrotan al hambre
-              <br />
-              <br />
+        <!-- End Stock Sabores -->
 
-              Ordena
+        <!-- Stock Adornos -->
+        <div class="flex flex-col mt-4 mb-4">
+          <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
+            <div class="inline-block py-2 min-w-full sm:px-6 lg:px-8">
+              <div class="overflow-hidden shadow-md sm:rounded-lg">
+                <table class="min-w-full">
+                  <thead class="bg-gray-50">
+                    <tr>
+                      <th
+                        scope="col"
+                        class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase"
+                      >
+                        Adorno
+                      </th>
 
-              <a class="text-pink-500 underline" href="clientes.html">Aquí</a>
-            </p>
-          </div>
-          <div class="w-full sm:w-1/2 p-6">
-            <img
-              class="w-full sm:h-96 mx-auto mt-0"
-              src="assets/img/cake.svg"
-            />
+                      <th
+                        scope="col"
+                        class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase"
+                      >
+                        Stock
+                      </th>
+                      <th
+                        scope="col"
+                        class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase"
+                      >
+                        Precio
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="bg-white border-b">
+                      <td
+                        class="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap"
+                      >
+                        Avenger
+                      </td>
+
+                      <td
+                        class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap"
+                      >
+                        10
+                      </td>
+                      <td
+                        class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap"
+                      >
+                        $50
+                      </td>
+                    </tr>
+
+                    <tr class="bg-white border-b">
+                      <td
+                        class="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap"
+                      >
+                        Betún decorado
+                      </td>
+                      <td
+                        class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap"
+                      >
+                        12
+                      </td>
+                      <td
+                        class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap"
+                      >
+                        $25
+                      </td>
+                    </tr>
+
+                    <tr class="bg-white border-b">
+                      <td
+                        class="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap"
+                      >
+                        Martillo
+                      </td>
+
+                      <td
+                        class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap"
+                      >
+                        120
+                      </td>
+                      <td
+                        class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap"
+                      >
+                        $150
+                      </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                      <td
+                        class="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap"
+                      >
+                        Bati Duraznos
+                      </td>
+
+                      <td
+                        class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap"
+                      >
+                        45
+                      </td>
+                      <td
+                        class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap"
+                      >
+                        $70
+                      </td>
+                    </tr>
+                    <tr class="bg-white border-b">
+                      <td
+                        class="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap"
+                      >
+                        Frutos del infinito
+                      </td>
+
+                      <td
+                        class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap"
+                      >
+                        29
+                      </td>
+                      <td
+                        class="py-4 px-6 text-sm text-gray-500 whitespace-nowrap"
+                      >
+                        $40
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="flex flex-wrap flex-col-reverse sm:flex-row" id="adornos">
-          <div class="w-full sm:w-1/2 p-6 mt-6">
-            <img
-              class="w-full sm:h-128 mx-auto mt-0"
-              src="assets/img/cake-2.svg"
-            />
-          </div>
-          <div class="w-full sm:w-1/2 p-6 md:mt-16 sm:mt-0">
-            <div class="align-middle">
-              <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                Adornos del infinito
-              </h3>
-              <p class="text-gray-600 mb-8">
-                Nuestros adornos son mas geniales que las gemas, atrevete a
-                hacer tu combinación
-                <br />
-                <br />
-                Ordena
+        <!-- End Stock Adornos -->
 
-                <a class="text-pink-500 underline" href="clientes.html">Aquí</a>
-              </p>
+        <div class="flex flex-col">
+          <h1
+            class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
+          >
+            Pedidos
+          </h1>
+
+          <div class="overflow-x-auto shadow-md sm:rounded-lg">
+            <div class="inline-block min-w-full align-middle">
+              <div class="p-4">
+                <label for="table-search" class="sr-only">Buscar</label>
+                <div class="relative mt-1">
+                  <div
+                    class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none"
+                  >
+                    <svg
+                      class="w-5 h-5 text-gray-500"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                  </div>
+                  <input
+                    type="text"
+                    id="table-search"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-80 pl-10 p-2.5"
+                    placeholder="Buscar pedidos"
+                  />
+                </div>
+              </div>
+              <div class="overflow-hidden">
+                <table class="min-w-full divide-y divide-gray-200 table-fixed">
+                  <thead class="bg-gray-100">
+                    <tr>
+                      <th scope="col" class="p-4">
+                        <div class="flex items-center">
+                          <input
+                            id="checkbox-search-all"
+                            type="checkbox"
+                            class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 focus:ring-2"
+                          />
+                          <label for="checkbox-search-all" class="sr-only"
+                            >checkbox</label
+                          >
+                        </div>
+                      </th>
+                      <th
+                        scope="col"
+                        class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase"
+                      >
+                        Sabores
+                      </th>
+                      <th
+                        scope="col"
+                        class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase"
+                      >
+                        Adornos
+                      </th>
+                      <th
+                        scope="col"
+                        class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase"
+                      >
+                        Precio
+                      </th>
+                      <th scope="col" class="p-4">
+                        <span class="sr-only">Editar</span>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody class="bg-white divide-y divide-gray-200">
+                    <tr class="hover:bg-gray-100">
+                      <td class="p-4 w-4">
+                        <div class="flex items-center">
+                          <input
+                            id="checkbox-search-1"
+                            type="checkbox"
+                            class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 focus:ring-2"
+                          />
+                          <label for="checkbox-search-1" class="sr-only"
+                            >checkbox</label
+                          >
+                        </div>
+                      </td>
+                      <td
+                        class="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap"
+                      >
+                        Wonderful Piña, The Coco
+                      </td>
+                      <td
+                        class="py-4 px-6 text-sm font-medium text-gray-500 whitespace-nowrap"
+                      >
+                        Thor de Chocolate
+                      </td>
+                      <td
+                        class="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap"
+                      >
+                        $600
+                      </td>
+                      <td
+                        class="py-4 px-6 text-sm font-medium text-right whitespace-nowrap"
+                      >
+                        <a href="#" class="text-blue-600 hover:underline"
+                          >editar</a
+                        >
+                      </td>
+                    </tr>
+                    <tr class="hover:bg-gray-100">
+                      <td class="p-4 w-4">
+                        <div class="flex items-center">
+                          <input
+                            id="checkbox-search-2"
+                            type="checkbox"
+                            class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 focus:ring-2"
+                          />
+                          <label for="checkbox-search-2" class="sr-only"
+                            >checkbox</label
+                          >
+                        </div>
+                      </td>
+                      <td
+                        class="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap"
+                      >
+                        Avenger Mango
+                      </td>
+                      <td
+                        class="py-4 px-6 text-sm font-medium text-gray-500 whitespace-nowrap"
+                      >
+                        Betún
+                      </td>
+                      <td
+                        class="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap"
+                      >
+                        $350
+                      </td>
+                      <td
+                        class="py-4 px-6 text-sm font-medium text-right whitespace-nowrap"
+                      >
+                        <a href="#" class="text-blue-600 hover:underline"
+                          >editar</a
+                        >
+                      </td>
+                    </tr>
+                    <tr class="hover:bg-gray-100">
+                      <td class="p-4 w-4">
+                        <div class="flex items-center">
+                          <input
+                            id="checkbox-search-3"
+                            type="checkbox"
+                            class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 focus:ring-2"
+                          />
+                          <label for="checkbox-search-3" class="sr-only"
+                            >checkbox</label
+                          >
+                        </div>
+                      </td>
+                      <td
+                        class="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap"
+                      >
+                        Justice Vainilla
+                      </td>
+                      <td
+                        class="py-4 px-6 text-sm font-medium text-gray-500 whitespace-nowrap"
+                      >
+                        Bati Duraznos
+                      </td>
+                      <td
+                        class="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap"
+                      >
+                        $320
+                      </td>
+                      <td
+                        class="py-4 px-6 text-sm font-medium text-right whitespace-nowrap"
+                      >
+                        <a href="#" class="text-blue-600 hover:underline"
+                          >editar</a
+                        >
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         </div>
@@ -383,8 +749,11 @@
                 <a
                   href="#"
                   class="no-underline hover:underline text-gray-800 hover:text-pink-500"
-                  >Cooming Soon</a
                 >
+                  <span>Avenida Siempre Viva #404 <br /></span>
+                  <span>81-100-123-2300 <br /></span>
+                  <span>De Miércoles a Domingo de 8 a 17 <br /></span>
+                </a>
               </li>
             </ul>
           </div>
